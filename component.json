@@ -1,10 +1,10 @@
 {
-  "name": "collection_order",
+  "name": "discounts",
   "version": "1.0.0",
   "description": "Сортировка коллекции",
   "author": "LiquidHub.ru",
   "type": "snippets",
-  "homepage": "https://github.com/insales-components/collection_order",
+  "homepage": "https://github.com/insales-components/discounts",
   "props": {
     "common": true,
     "liquid": true
@@ -12,7 +12,8 @@
   "plugins": [],
   "dependencies": {
     "cellsio": "https://github.com/insales-components/cellsio",
-    "catalog_filter": "https://github.com/insales-components/catalog_filter",
-    "scss_mixins": "https://github.com/insales-components/scss_mixins"
+    "ui-notice": "https://github.com/insales-components/ui-notice",
+    "ui-notice": "https://github.com/insales-components/ui-notice",
+    "CartMan": "https://github.com/insales-components/CartMan"
   }
 }

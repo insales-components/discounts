@@ -1,13 +1,13 @@
 {% if cart.enable_coupon? or cart.discounts.size > 0 %}
 <div class="discounts-wrap">
   <label for="discounts-coupon" class="discounts-label">
-    <span class="discounts-title">промокод</span>
+    <span class="discounts-title">Промокод</span>
   </label>
   <div class="inpt-group">
-    <input type="text" name="cart[coupon]" id="discounts-coupon" class="discounts-coupon form-control" placeholder="Введите промокод" {% if cart.invalid_coupon? %}value=""{% else %}value="{{ cart.coupon }}"{% endif %}>
+    <input type="text" name="cart[coupon]" id="discounts-coupon" class="discounts-coupon inpt-control" placeholder="Введите промокод" {% if cart.invalid_coupon? %}value=""{% else %}value="{{ cart.coupon }}"{% endif %}>
     <button class="discounts-submit
     btn
-    btn-transparent
+    btn-link
     inpt-group-addon
     is-discounts"
     data-coupon-submit
